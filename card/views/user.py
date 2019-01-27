@@ -1,7 +1,7 @@
 from rest_framework import viewsets
 from django.contrib.auth.models import User
 
-from agile.serializers import user
+from card.serializers import user
 
 
 class UserViewSet(viewsets.ModelViewSet):

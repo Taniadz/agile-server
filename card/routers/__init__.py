@@ -1,6 +1,5 @@
 from rest_framework.routers import DefaultRouter
-from agile.views import *
-from agile import views
+from card import views
 
 router = DefaultRouter()
 

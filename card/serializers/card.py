@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from agile import models
+from card import models
 from django.contrib.auth.models import User
 
 

@@ -16,9 +16,7 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from django.conf.urls import url, include
-from agile.routers import router
-from rest_framework_jwt.views import obtain_jwt_token
-
+from card.routers import router
 
 urlpatterns = [
     path('admin/', admin.site.urls),
