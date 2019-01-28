@@ -12,4 +12,4 @@ class Card(BaseModel):
     author = models.ForeignKey(User, on_delete=models.CASCADE)
     subsribed = models.ForeignKey(User, on_delete=models.CASCADE,
                                   related_name="card_subsribed", null=True)
-    status = models.CharField(choices=tuple(map(lambda x: (x, x), STATUS_TYPES)),max_length=10)
+    status = models.CharField(choices=tuple(map(lambda x: (x, x), STATUS_TYPES)),max_length=15)
